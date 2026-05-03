@@ -1,0 +1,149 @@
+[    8679ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    9351ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:14111
+[    9731ms] Error: ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/node/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/build/chunks/[turbopack]_runtime.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/transform.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)]
+    [at Module._load (node:internal/modules/cjs/loader:1242:25)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)]
+    [at Module.require (node:internal/modules/cjs/loader:1556:12)]
+    [at require (node:internal/modules/helpers:152:16)]
+    [at Object.<anonymous> (/Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1812:14)]
+    [at Object..js (node:internal/modules/cjs/loader:1943:10)]
+
+
+    at Object.getCompilationErrors (file:///Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:725:59)
+    at DevBundlerService.getCompilationError (file:///Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/next/dist/server/lib/dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file:///Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/next/dist/server/dev/next-dev-server.js:643:42)
+    at DevServer.findPageComponents (file:///Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/next/dist/server/dev/next-dev-server.js:613:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/next/dist/server/base-server.js:2619:26)
+[    9778ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11471
+[   10088ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/node/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/build/chunks/[turbopack]_runtime.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/transform.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)]
+    [at Module._load (node:internal/modules/cjs/loader:1242:25)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)]
+    [at Module.require (node:internal/modules/cjs/loader:1556:12)]
+    [at require (node:internal/modules/helpers:152:16)]
+    [at Object.<anonymous> (/Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1812:14)]
+    [at Object..js (node:internal/modules/cjs/loader:1943:10)] @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   10469ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[   10508ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/node/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/build/chunks/[turbopack]_runtime.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/transform.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)]
+    [at Module._load (node:internal/modules/cjs/loader:1242:25)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)]
+    [at Module.require (node:internal/modules/cjs/loader:1556:12)]
+    [at require (node:internal/modules/helpers:152:16)]
+    [at Object.<anonymous> (/Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1812:14)]
+    [at Object..js (node:internal/modules/cjs/loader:1943:10)] @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   11607ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[   49124ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/node/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/build/chunks/[turbopack]_runtime.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/transform.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)]
+    [at Module._load (node:internal/modules/cjs/loader:1242:25)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)]
+    [at Module.require (node:internal/modules/cjs/loader:1556:12)]
+    [at require (node:internal/modules/helpers:152:16)]
+    [at Object.<anonymous> (/Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1812:14)]
+    [at Object..js (node:internal/modules/cjs/loader:1943:10)] @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   49328ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[   58656ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/node/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/build/chunks/[turbopack]_runtime.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/transform.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)]
+    [at Module._load (node:internal/modules/cjs/loader:1242:25)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)]
+    [at Module.require (node:internal/modules/cjs/loader:1556:12)]
+    [at require (node:internal/modules/helpers:152:16)]
+    [at Object.<anonymous> (/Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1812:14)]
+    [at Object..js (node:internal/modules/cjs/loader:1943:10)] @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   58807ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[   65392ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[   65459ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/node/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/build/chunks/[turbopack]_runtime.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/transform.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)]
+    [at Module._load (node:internal/modules/cjs/loader:1242:25)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)]
+    [at Module.require (node:internal/modules/cjs/loader:1556:12)]
+    [at require (node:internal/modules/helpers:152:16)]
+    [at Object.<anonymous> (/Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1812:14)]
+    [at Object..js (node:internal/modules/cjs/loader:1943:10)] @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   69987ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/node/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/build/chunks/[turbopack]_runtime.js
+- /Users/nosherkhalid/Downloads/UIGEN/uigen/.next/transform.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)]
+    [at Module._load (node:internal/modules/cjs/loader:1242:25)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)]
+    [at Module.require (node:internal/modules/cjs/loader:1556:12)]
+    [at require (node:internal/modules/helpers:152:16)]
+    [at Object.<anonymous> (/Users/nosherkhalid/Downloads/UIGEN/uigen/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1812:14)]
+    [at Object..js (node:internal/modules/cjs/loader:1943:10)] @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   69988ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
